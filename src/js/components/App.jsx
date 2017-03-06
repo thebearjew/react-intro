@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { render } from 'react-dom'
 
 import IncrementButton from './components/IncrementButton.jsx'
 import DecrementButton from './components/DecrementButton.jsx'
@@ -39,5 +38,3 @@ export default class App extends Component {
     )
   }
 }
-
-render(<App />, document.getElementById('app'))
